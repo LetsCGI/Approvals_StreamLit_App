@@ -4,6 +4,7 @@ import streamlit as st
 # importing package
 st.title('Data Classification Approvals App')
 
+st.image("C:\GitHub StreamLit Repository\Approvals_StreamLit_App/BankingAnalyticsLogo.png", use_column_width=True)
 
 primaryColor="#F63366"
 backgroundColor="#FFFFFF"
