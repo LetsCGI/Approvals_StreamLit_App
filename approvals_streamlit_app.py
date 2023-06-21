@@ -2,6 +2,9 @@ import streamlit as st
 # importing package
 st.title('Data Classification Approvals App')
 
+image = Image.open('sunrise.jpg')
+
+st.image(image, caption='Sunrise by the mountains')
 
 primaryColor="#F63366"
 backgroundColor="#FFFFFF"
