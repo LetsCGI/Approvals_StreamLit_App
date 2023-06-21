@@ -1,4 +1,5 @@
 import streamlit as st
+import snowflake.connector
 #from PIL import Image
 #image = Image.open('C:\GitHub StreamLit Repository\Approvals_StreamLit_App/BankingAnalyticsLogo.png')
 #st.image(image, caption='Sunrise by the mountains')
