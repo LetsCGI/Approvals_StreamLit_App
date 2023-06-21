@@ -1,9 +1,9 @@
 import streamlit as st
 from PIL import Image
 
-image = Image.open('C:\GitHub StreamLit Repository\Approvals_StreamLit_App/BankingAnalyticsLogo.png')
+#image = Image.open('C:\GitHub StreamLit Repository\Approvals_StreamLit_App/BankingAnalyticsLogo.png')
 
-st.image(image, caption='Sunrise by the mountains')
+#st.image(image, caption='Sunrise by the mountains')
 
 # importing package
 st.title('Data Classification Approvals App')
