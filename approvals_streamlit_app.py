@@ -1,10 +1,10 @@
 import streamlit as st
-#from PIL import Image
-#image = Image.open('C:\GitHub StreamLit Repository\Approvals_StreamLit_App/BankingAnalyticsLogo.png')
-#st.image(image, caption='Sunrise by the mountains')
+from PIL import Image
+image = Image.open('C:\GitHub StreamLit Repository\Approvals_StreamLit_App/BankingAnalyticsLogo.png')
+st.image(image, caption='Sunrise by the mountains')
 
 
-importing packagest.title('Data Classification Approvals App')
+st.title('Data Classification Approvals App')
 primaryColor="#F63366"
 backgroundColor="#FFFFFF"
 secondaryBackgroundColor="#F0F2F6"
