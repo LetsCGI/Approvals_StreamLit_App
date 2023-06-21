@@ -1,7 +1,7 @@
 import streamlit as st
-from PIL import Image
-image = Image.open('C:\GitHub StreamLit Repository\Approvals_StreamLit_App/BankingAnalyticsLogo.png')
-st.image(image, caption='Sunrise by the mountains')
+#from PIL import Image
+#image = Image.open('C:\GitHub StreamLit Repository\Approvals_StreamLit_App/BankingAnalyticsLogo.png')
+#st.image(image, caption='Sunrise by the mountains')
 
 
 st.title('Data Classification Approvals App')
