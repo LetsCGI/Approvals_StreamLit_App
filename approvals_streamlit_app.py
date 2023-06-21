@@ -8,8 +8,6 @@ secondaryBackgroundColor="#F0F2F6"
 textColor="#262730"
 font="sans serif"
 
-
-
 # button
 st.button('Streamlit Button', help="Click here")
  
@@ -34,4 +32,3 @@ add_selectbox = st.sidebar.radio(
     "Please choose an option",
     ("Option 1", "Option 2", "Option 3")
 )
-  
