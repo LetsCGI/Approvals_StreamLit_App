@@ -13,28 +13,3 @@ textColor="#262730"
 font="sans serif"
 
 st.image("C:\GitHub StreamLit Repository\Approvals_StreamLit_App/BankingAnalyticsLogo.png", use_column_width=True)
-
-# button
-st.button('Streamlit Button', help="Click here")
- 
-# check box
-st.checkbox('Check Box')
- 
-# radio button
-lang = st.radio(
-    "What's your favorite programming language?",
-    ('C++', 'Python'))
-if lang == 'C++':
-    st.write('You selected C++.')
-else:
-    st.write('You selected Python')
- 
-# slider
-score = st.slider('Please specify your test score', 0, 100, 10)
-st.write("My test score is ", score)
- 
-# Using object notation
-add_selectbox = st.sidebar.radio(
-    "Please choose an option",
-    ("Option 1", "Option 2", "Option 3")
-)
