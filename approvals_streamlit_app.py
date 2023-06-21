@@ -38,4 +38,4 @@ add_selectbox = st.sidebar.radio(
     "Please choose an option",
     ("Option 1", "Option 2", "Option 3")
 )
-
+add_bg_from_local('C:\GitHub StreamLit Repository\Approvals_StreamLit_App/BankingAnalyticsLogo.png')    
