@@ -1,4 +1,28 @@
-import streamlit 
+import streamlit as st
 # importing package
-streamlit.title('Data Classification Approvals App')
+st.title('Data Classification Approvals App')
 
+# button
+st.button('Streamlit Button', help="Click here")
+ 
+# check box
+st.checkbox('Check Box')
+ 
+# radio button
+lang = st.radio(
+    "What's your favorite programming language?",
+    ('C++', 'Python'))
+if lang == 'C++':
+    st.write('You selected C++.')
+else:
+    st.write('You selected Python')
+ 
+# slider
+score = st.slider('Please specify your test score', 0, 100, 10)
+st.write("My test score is ", score)
+ 
+# Using object notation
+add_selectbox = st.sidebar.radio(
+    "Please choose an option",
+    ("Option 1", "Option 2", "Option 3")
+)
