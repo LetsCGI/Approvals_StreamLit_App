@@ -3,6 +3,8 @@ import streamlit as st
 #image = Image.open('C:\GitHub StreamLit Repository\Approvals_StreamLit_App/BankingAnalyticsLogo.png')
 #st.image(image, caption='Sunrise by the mountains')
 
+st.image("C:\GitHub StreamLit Repository\Approvals_StreamLit_App/BankingAnalyticsLogo.png", use_column_width=True)
+
 
 st.title('Data Classification Approvals App')
 primaryColor="#F63366"
