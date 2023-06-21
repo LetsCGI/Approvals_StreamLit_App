@@ -1,4 +1,6 @@
 import streamlit as st
+from PIL import Image
+
 # importing package
 st.title('Data Classification Approvals App')
 
